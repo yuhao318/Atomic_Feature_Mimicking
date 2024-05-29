@@ -5,11 +5,10 @@
 **Authors**: Hao Yu, Minghao Fu, Jiandong Ding, Yusheng Zhou, Jianxin Wu
 
 
-<!-- [[`arXiv`](https://arxiv.org/pdf/2401.16811.pdf)] [[`bibtex`](#Citation)] -->
+[[`arXiv`](http://arxiv.org/abs/2405.18146)] [[`bibtex`](#Citation)]
 
-<!-- **Introduction**: This repository provides an implementation for the paper: "[Unified Low-rank Compression Framework for Large-scale Recommendation Systems](https://arxiv.org/pdf/2401.16811.pdf)" based on [DeepCTR-Torch](https://github.com/shenweichen/DeepCTR-Torch). We propose a unified and efficient low-rank decomposition framework compresses the embedding tables and MLP layers of CTR prediction models. -->
 
-**Introduction**: This repository provides an implementation for the KDD2024 ADS track paper: "Unified Low-rank Compression Framework for Large-scale Recommendation Systems" based on [DeepCTR-Torch](https://github.com/shenweichen/DeepCTR-Torch). We propose a unified and efficient low-rank decomposition framework compresses the embedding tables and MLP layers of CTR prediction models.
+**Introduction**: This repository provides an implementation for the KDD2024 ADS track paper: "[Unified Low-rank Compression Framework for Large-scale Recommendation Systems](http://arxiv.org/abs/2405.18146)" based on [DeepCTR-Torch](https://github.com/shenweichen/DeepCTR-Torch). We propose a unified and efficient low-rank decomposition framework to compress the embedding tables and MLP layers of CTR prediction models.
 
 **Note**: Due to copyright restrictions, we can only provide evaluation code, including [eval_criteo.py](https://github.com/yuhao318/Atomic_Feature_Mimicking/blob/main/eval_criteo.py) and [eval_avazu.py](https://github.com/yuhao318/Atomic_Feature_Mimicking/blob/main/eval_avazu.py), and the core compression code demo ([afm_emb.py](https://github.com/yuhao318/Atomic_Feature_Mimicking/blob/main/afm_emb.py) and [afm_mlp.py](https://github.com/yuhao318/Atomic_Feature_Mimicking/blob/main/afm_mlp.py)). We cannot provide the detailed engineering code. 
 
@@ -29,6 +28,7 @@ Please view our paper for more informations.
 ```bib
 @article{yu2024Unified,
   title={Unified Low-rank Compression Framework for Large-scale Recommendation Systems},
+  journal={arXiv preprint arXiv:2405.18146},
   author={Hao Yu,Minghao Fu,Jiandong Ding,Yusheng Zhou,Jianxin Wu},
   year={2024}
 }
